@@ -1,5 +1,5 @@
 BootStrap: shub
-From: shub://Yuqing66/singularity:basic
+From: shub://Yuqing66/Singularity:basic
 
 %labels
 
