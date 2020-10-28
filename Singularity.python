@@ -1,6 +1,5 @@
-
 BootStrap: shub
-From: shub://Yuqing66/singularity:basic
+From: shub://Yuqing66/Singularity:basic
 
 %labels
 
@@ -8,5 +7,5 @@ From: shub://Yuqing66/singularity:basic
     Version v1.0
 
 %post
-apt-get update && apt-get -y upgrade && apt-get -y install python3 && apt-get -y install python3-pip
-pip3 install biopython numpy pandas PyBrain regex scipy collections
+apt-get update && apt-get -y upgrade && apt-get -y install python && apt-get -y install python-pip
+pip install biopython numpy pandas PyBrain regex scipy pysam sys getopt os.path Bio.Seq re argparse gzip cPickle scipy.stats random
